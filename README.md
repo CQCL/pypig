@@ -1,4 +1,4 @@
-# pypig
+# pypig :pig:
 [![PyPI version](https://badge.fury.io/py/pypig.svg)](https://badge.fury.io/py/pypig)
 
 Command line utility for managing private pypiserver.
