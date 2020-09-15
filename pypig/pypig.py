@@ -272,7 +272,7 @@ def main():
         config_file = Path.home() / Path(".config/pypig/auth.json")
         if not config_file.exists():
             raise RuntimeError(
-                "Username and password must be set by optional arguments or in $HOME/.config/pypig/auth.json"
+                "Username, password and index must be set by optional arguments or in $HOME/.config/pypig/auth.json."
             )
         with config_file.open() as f:
             varargs = vars(args)
