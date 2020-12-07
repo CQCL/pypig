@@ -248,7 +248,7 @@ def main():
     )
     parser_list_parent.add_argument("--pyver", help="version of python3, e.g. 3.6")
     parser_list_parent.add_argument(
-        "--platform", help="os name", choices=("linux", "macos")
+        "--platform", help="os name", choices=("linux", "macos", "win")
     )
 
     parser_list = subparsers.add_parser(
